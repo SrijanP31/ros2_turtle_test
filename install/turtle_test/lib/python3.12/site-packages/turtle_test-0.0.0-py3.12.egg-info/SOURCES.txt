@@ -14,4 +14,5 @@ test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
 turtle_test/__init__.py
+turtle_test/draw_circle.py
 turtle_test/my_node.py

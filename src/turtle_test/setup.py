@@ -13,14 +13,15 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='killjoy',
+    maintainer='Srijan Prasanna',
     maintainer_email='pn.srijan@gmail.com',
-    description='TODO: Package description',
+    description='Playing around with ROS2 using turtlesim',
     license='Apache-2.0',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'my_node = turtle_test.my_node:main'
+            'my_node = turtle_test.my_node:main',
+            'circle = turtle_test.draw_circle:main'
         ],
     },
 )

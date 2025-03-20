@@ -1,2 +1,3 @@
 [console_scripts]
+circle = turtle_test.draw_circle:main
 my_node = turtle_test.my_node:main

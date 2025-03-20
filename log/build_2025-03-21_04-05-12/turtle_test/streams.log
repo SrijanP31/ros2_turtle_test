@@ -1,0 +1,27 @@
+[1.781s] Invoking command in '/home/killjoy/ros2_turtle/src/turtle_test': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/killjoy/ros2_turtle/build/turtle_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/killjoy/ros2_turtle/install/turtle_test/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_test build --build-base /home/killjoy/ros2_turtle/build/turtle_test/build install --record /home/killjoy/ros2_turtle/build/turtle_test/install.log --single-version-externally-managed install_data
+[2.273s] running egg_info
+[2.309s] writing ../../build/turtle_test/turtle_test.egg-info/PKG-INFO
+[2.309s] writing dependency_links to ../../build/turtle_test/turtle_test.egg-info/dependency_links.txt
+[2.309s] writing entry points to ../../build/turtle_test/turtle_test.egg-info/entry_points.txt
+[2.309s] writing requirements to ../../build/turtle_test/turtle_test.egg-info/requires.txt
+[2.310s] writing top-level names to ../../build/turtle_test/turtle_test.egg-info/top_level.txt
+[2.385s] reading manifest file '../../build/turtle_test/turtle_test.egg-info/SOURCES.txt'
+[2.386s] adding license file 'LICENSE'
+[2.387s] writing manifest file '../../build/turtle_test/turtle_test.egg-info/SOURCES.txt'
+[2.387s] running build
+[2.387s] running build_py
+[2.388s] copying turtle_test/draw_circle.py -> /home/killjoy/ros2_turtle/build/turtle_test/build/lib/turtle_test
+[2.388s] running install
+[2.401s] running install_lib
+[2.438s] copying /home/killjoy/ros2_turtle/build/turtle_test/build/lib/turtle_test/draw_circle.py -> /home/killjoy/ros2_turtle/install/turtle_test/lib/python3.12/site-packages/turtle_test
+[2.439s] byte-compiling /home/killjoy/ros2_turtle/install/turtle_test/lib/python3.12/site-packages/turtle_test/draw_circle.py to draw_circle.cpython-312.pyc
+[2.440s] running install_data
+[2.441s] copying package.xml -> /home/killjoy/ros2_turtle/install/turtle_test/share/turtle_test
+[2.441s] running install_egg_info
+[2.480s] removing '/home/killjoy/ros2_turtle/install/turtle_test/lib/python3.12/site-packages/turtle_test-0.0.0-py3.12.egg-info' (and everything under it)
+[2.481s] Copying ../../build/turtle_test/turtle_test.egg-info to /home/killjoy/ros2_turtle/install/turtle_test/lib/python3.12/site-packages/turtle_test-0.0.0-py3.12.egg-info
+[2.483s] running install_scripts
+[2.747s] Installing circle script to /home/killjoy/ros2_turtle/install/turtle_test/lib/turtle_test
+[2.749s] Installing my_node script to /home/killjoy/ros2_turtle/install/turtle_test/lib/turtle_test
+[2.750s] writing list of installed files to '/home/killjoy/ros2_turtle/build/turtle_test/install.log'
+[2.812s] Invoked command in '/home/killjoy/ros2_turtle/src/turtle_test' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/killjoy/ros2_turtle/build/turtle_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/killjoy/ros2_turtle/install/turtle_test/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_test build --build-base /home/killjoy/ros2_turtle/build/turtle_test/build install --record /home/killjoy/ros2_turtle/build/turtle_test/install.log --single-version-externally-managed install_data
